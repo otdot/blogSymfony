@@ -1,0 +1,64 @@
+@import "~bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.form {
+  width: 70vw;
+  margin: 1rem auto;
+}
+.commentform {
+  margin: 1rem 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1rem auto;
+  width: 90vw;
+}
+
+.card {
+  width: 32rem;
+  margin: 1rem;
+}
+
+.card-text {
+  display: block;
+}
+
+header {
+  height: 8vh;
+  min-height: 5rem;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header .links {
+  display: flex;
+  flex-direction: row;
+}
+
+header .links input {
+  height: 2rem;
+}
+
+header a {
+  color: rgb(69, 69, 69);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+header a:hover {
+  color: black;
+  text-decoration: underline;
+}
