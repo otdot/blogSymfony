@@ -1,5 +1,4 @@
 # Blog app symfony
-
     - use docker to test website.
     - create databases with docker-compose up --build
     - rename symfonyBlog-folder to web
