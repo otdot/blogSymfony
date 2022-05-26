@@ -3,7 +3,7 @@
     - use docker to test website.
     - create databases with docker-compose up --build
     - rename symfonyBlog-folder to web
-        - ```cd web```
+        ``` shell cd web```
         - ```npm install```
         - ```composer require```
         - ```npm run watch```
