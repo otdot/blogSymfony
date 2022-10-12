@@ -10,7 +10,7 @@
   - ```npm run watch```
   - create tables with ```./bin/console make:migration``` and ```./bin/console doctrine:migrations:migrate``` in docker container
 
-## Techonologies
+## Technologies
 
 [Symfony](https://symfony.com/)<br>
 [React](https://reactjs.org/)<br>
