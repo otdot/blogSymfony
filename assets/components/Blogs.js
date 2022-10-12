@@ -10,6 +10,8 @@ export const Blogs = () => {
   useEffect(() => {
     setIsLoading(true);
 
+    console.log("getting blogs");
+
     axios
       .get("/spa/blogs")
       .then((res) => setBlogs(res.data))
@@ -20,7 +22,7 @@ export const Blogs = () => {
   if (isLoading) {
     return <p>loading...</p>;
   }
-  console.log(blogs);
+  console.log("blogs: ", blogs);
 
   return (
     <div className="cards">
